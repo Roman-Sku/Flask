@@ -1,37 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="static-files/main.css">
     <meta charset="UTF-8">
     <title>note_creation</title>
 </head>
 <body>
-<h1 style="
-    color: white;
-    background: #95b3fb;
-    border-radius: 10px;
-    text-align: center;
-    paddint: 20px;
-"> Создание записи </h1>
-<form style="
-    text-align: left;
-    color: white;
-" action="/create" method="post">
-    <p style="
-    background: #98c0fe;
-    color: white;
-    border-radius: 5pt;
-"> Заголовок: <input style="
-    background: black;
-    color: white;
-" type="text" name="title"> </p>
-    <p style="
-    background: #94c1ff;
-    border-radius: 5pt;
-"> Содержимое: <input style="
-    background: black;
-    color: white;
-" type="text" name="content"> </p>
-    <p> <input type="submit" /> </p>
+<h1 class="header"> Создание записи </h1>
+<form class="form" action="/create" method="post">
+    <p class="under-input"> Заголовок: <input class="input" type="text" name="title"> </p>
+    <p class="under-input"> Содержимое: <input class="input" type="text" name="content"> </p>
+    <p class="under-input"> <input class="input" type="submit" /> </p>
 </form>
 </body>
 </html>

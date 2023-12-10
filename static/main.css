@@ -1,0 +1,40 @@
+.input {
+    background: black;
+    color: white;
+}
+
+
+.header {
+    color: white;
+    background: #95b3fb;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.form {
+    text-align: left;
+    color: white;
+}
+
+
+.under-input {
+    background: #95b3fb;
+    border-radius: 5pt;
+}
+
+
+
+.forNote {
+    background: #abcaff;
+    padding: 20px;
+    border-radius: 5pt;
+    text-align: center;
+    color: white;
+}
+
+
+.home {
+    padding-top: 20px;
+}
