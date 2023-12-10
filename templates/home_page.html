@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+<h1> Все записи</h1>
+ <div style="padding-top: 20px;">
+        <a href="/create">Создать запись</a>
+    </div>
+{% for note in notes %}
+<h3>
+    <a href="/{{ note.uuid }}"> {{ note.uuid }} </a>
+</h3>
+Title: {{ note.title }}
+Content: {{ note.content }}
+Time: {{ note.created_at }}
+{% endfor %}
+</body>
+</html>
